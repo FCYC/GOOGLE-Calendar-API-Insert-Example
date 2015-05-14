@@ -1,6 +1,4 @@
-import com.github.nkzawa.emitter.Emitter;
-import com.github.nkzawa.socketio.client.IO;
-import com.github.nkzawa.socketio.client.Socket;
+
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.googleapis.auth.oauth2.GoogleCredential;
 import com.google.api.client.json.gson.GsonFactory;
@@ -9,10 +7,6 @@ import com.google.api.services.calendar.Calendar;
 import com.google.api.services.calendar.model.Event;
 import com.google.api.services.calendar.model.EventAttendee;
 import com.google.api.services.calendar.model.EventDateTime;
-import com.thinklab.Adapters.CustomAdapterCalendario;
-import com.thinklab.Adapters.RowItemCalendario;
-import com.thinklab.ecomodel.R;
-import com.thinklab.ecomodel.login.Globalsinicio;
 
 import org.json.JSONArray;
 import org.json.JSONException;
